@@ -105,27 +105,27 @@
             cartCard.innerHTML += `
 
             <div class="card mb-1" >
-                        <div class="row g-0">
-                          <div class="col-md-3">
-                            <img src="${product.image}" class="img-fluid rounded-start" alt="${product.name}">
-                          </div>
-                          <div class="col-md-9">
-                            <div class="card-body" style="margin-top: 20px; margin-left: 10px; display: flex; justify-content: space-between;margin: auto 0px;">
-                              <h6 class="card-title">${product.name}</h6>
-                              <p class="card-text"><span>$</span>${product.price}</p>
-                              <div>
-                                <div class="quantity-section" >
-                                    <button onclick="changeNumberOfUnits('plus', ${product.id})" style="border: none; background-color: transparent;"><i class="fi fi-rr-square-plus"></i></button>
-                                    <p style="padding: 0px 5px; margin: 0px 3px; background-color: #E5E7E9;">${product.quantity}</p>
-                                    <button onclick="changeNumberOfUnits('minus', ${product.id})" style="border: none; background-color: transparent;"><i class="fi fi-rr-square-minus"></i></button>
-                                </div>
-                              </div>
-                               
-                            </div>
-                            <button onclick="removeProduct(${product.id})" class="cartBtn" style="margin-left: 10px; ">Remove</button>
-                          </div>
+                <div class="row g-0">
+                    <div class="col-md-3">
+                    <img src="${product.image}" class="img-fluid rounded-start" alt="${product.name}">
+                    </div>
+                    <div class="col-md-9">
+                    <div class="card-body" style="margin-top: 20px; margin-left: 10px; display: flex; justify-content: space-between;margin: auto 0px;">
+                        <h6 class="card-title">${product.name}</h6>
+                        <p class="card-text"><span>$</span>${product.price}</p>
+                        <div>
+                        <div class="quantity-section" >
+                            <button onclick="changeNumberOfUnits('plus', ${product.id})" style="border: none; background-color: transparent;"><i class="fi fi-rr-square-plus"></i></button>
+                            <p style="padding: 0px 5px; margin: 0px 3px; background-color: #E5E7E9;">${product.quantity}</p>
+                            <button onclick="changeNumberOfUnits('minus', ${product.id})" style="border: none; background-color: transparent;"><i class="fi fi-rr-square-minus"></i></button>
                         </div>
-                      </div> 
+                        </div>
+                        
+                    </div>
+                    <button onclick="removeProduct(${product.id})" class="cartBtn" style="margin-left: 10px; ">Remove</button>
+                    </div>
+                </div>
+            </div> 
                            
             `;
         } )    
