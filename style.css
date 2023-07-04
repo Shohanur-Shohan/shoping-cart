@@ -1,0 +1,68 @@
+.container{
+    margin-top: 30px;
+    display: flex;
+    
+}
+.product-section button{
+    background-color: black;
+    font-weight: 500;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 3px;
+}
+.product-section button:hover{
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+}
+.product-section{
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    background-color: #5D6D7E;
+    padding: 6px;
+
+}
+.product-section p{
+    font-weight: 500;
+    font-size: 22px;
+}
+.cart-section{
+    width: 100%;
+    border-radius: 4px;
+    
+}
+.cart-section .row{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.quantity-section{
+    display: flex;
+}
+#submitCoupon{
+    background-color: #fff;
+    border: 2px solid #28B463;
+    color: #000;
+    padding: 6px 24px;
+    font-size: 15px;
+}
+input{
+    padding: 2px 5px;
+}
+.cartBtn {
+    background-color: black;
+    font-weight: 500;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.cartBtn:hover{
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+}
+
